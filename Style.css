@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.portada p, .portada button {
+    color: white;
+    font-size: medium;
+}
+
+.portada h1{
+    color: white;
+    font-size: x-large;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0rem 1rem ;
+}
+.nav-link{
+
+    font-size: 13px;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./imagenes/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 580px;
+    margin-bottom: 10px;
+  }
+
+  .tarjeta{
+
+    margin-right: 50px;
+    text-align: right;
+  }
+.oradores_tarjetas{
+
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px 150px;
+}
+.oradores_titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.oradores_titulo h6{
+    font-size: 11px;
+
+}
+
+.etiquetas{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.etiquetas h6{
+
+    margin: 4px;
+    font-size: small;
+    padding: 3px;
+}
+
+.tarjetas_oradores{
+
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
