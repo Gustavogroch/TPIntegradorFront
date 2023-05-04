@@ -65,20 +65,53 @@
     flex-direction: row;
 }
 
+.card-title{
+    margin-top: 10px;
+}
+
 .etiquetas h6{
 
     margin: 4px;
     font-size: small;
     padding: 3px;
+    color: aliceblue;
 }
 
+.text-bg-info{
+    color: aliceblue;
+}
 .tarjetas_oradores{
 
     background-color: aqua;
 }
 
+.postal{
+    display: flex;
+    flex-direction: row;
+}
 
+.postal img {
+    width: 50%;
+}
+.postal_descripcion{
+    width: 50%;
+    font-size: small;
+    padding: 10px;
+    background-color:#343a40;
+    color: white;
+}
 
+.formulario_contacto{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    
+
+}
 
 
 
