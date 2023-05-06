@@ -32,13 +32,13 @@
                                 <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Los oradores</a>
+                                <a class="nav-link" href="#oradores">Los oradores</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">El lugar y la fecha</a>
+                                <a class="nav-link" href="#lugaryfecha">El lugar y la fecha</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">conviértete en orador</a>
+                                <a class="nav-link" href="#contacto">conviértete en orador</a>
                             </li>
                             <li class="nav-item">
                                 <button class="btn btn-outline-success border-0" type="submit">comprar tickets</button>
@@ -67,10 +67,10 @@
                 </div>
             </div>
         </section>
-        <section class="oradores">
+        <section id="oradores" class="oradores">
          <div class="oradores_titulo">
             <h6>CONOCE A LOS</h6>
-            <h2>ORADORES</h2>
+            <h2 >ORADORES</h2>
          </div>
          <div class="oradores_tarjetas">
             <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
@@ -127,12 +127,15 @@
                 </div>
 
             </div>
-
+            
          </div>
          </div>
         </section>
-        <article>
-            <div class="postal">
+        
+        <article >
+            <span id="lugaryfecha"></span>
+
+            <div  class="postal">
                 <img src="./imagenes/honolulu.jpg" alt="honolulu">
                 <div class="postal_descripcion">
                     <h3>Bs As - Octubre</h3>
@@ -146,7 +149,7 @@
                     </div>
         </article>
 
-        <section>
+        <section id="contacto">
             <div class="oradores_titulo">
                 <h6>CONVIERTÉTE EN UN</h6>
                 <h2>ORADOR</h2>
@@ -176,10 +179,32 @@
 
 
     </main>
-    <footer>
 
-        <h3>GRIDS</h3>
-
+    <footer class="Links_footer">
+        <ul class="nav  justify-content-center ">
+            <li class="nav-item text-white">
+              <a class="nav-link text-white" href="#">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " href="#">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Prensa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">conferencias </a>
+              </li>
+             <li class="nav-item">
+                <a class="nav-link text-white" href="#">Términos y condiciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Privacidad</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Estudiantes</a>
+            </li>
+        
+          </ul>
     </footer>
 </body>
 

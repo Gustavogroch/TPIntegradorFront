@@ -1,25 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.portada p, .portada button {
+a {
+    text-decoration: none;
+}
+
+.portada p,
+.portada button {
     color: white;
     font-size: medium;
 }
 
-.portada h1{
+.portada h1 {
     color: white;
     font-size: x-large;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     padding: 0;
-    margin: 0rem 1rem ;
+    margin: 0rem 1rem;
 }
-.nav-link{
+
+.nav-link {
 
     font-size: 13px;
 }
@@ -35,41 +41,44 @@
     width: 100%;
     height: 580px;
     margin-bottom: 10px;
-  }
+}
 
-  .tarjeta{
+.tarjeta {
 
     margin-right: 50px;
     text-align: right;
-  }
-.oradores_tarjetas{
+}
+
+.oradores_tarjetas {
 
     display: flex;
     flex-flow: row wrap;
     padding: 20px 150px;
 }
+
 .oradores_titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
 }
-.oradores_titulo h6{
+
+.oradores_titulo h6 {
     font-size: 11px;
 
 }
 
-.etiquetas{
+.etiquetas {
 
     display: flex;
     flex-direction: row;
 }
 
-.card-title{
+.card-title {
     margin-top: 10px;
 }
 
-.etiquetas h6{
+.etiquetas h6 {
 
     margin: 4px;
     font-size: small;
@@ -77,15 +86,16 @@
     color: aliceblue;
 }
 
-.text-bg-info{
+.text-bg-info {
     color: aliceblue;
 }
-.tarjetas_oradores{
+
+.tarjetas_oradores {
 
     background-color: aqua;
 }
 
-.postal{
+.postal {
     display: flex;
     flex-direction: row;
 }
@@ -93,15 +103,16 @@
 .postal img {
     width: 50%;
 }
-.postal_descripcion{
+
+.postal_descripcion {
     width: 50%;
     font-size: small;
     padding: 10px;
-    background-color:#343a40;
-    color: white;
+    background-color: #343a40;
+    color: rgb(255, 255, 255);
 }
 
-.formulario_contacto{
+.formulario_contacto {
     display: flex;
     flex-flow: column;
     width: 50%;
@@ -109,16 +120,35 @@
     justify-content: center;
     justify-items: center;
     margin: auto;
-    
-
 }
 
+.Links_footer {
 
+    background: rgb(28, 56, 68);
+    background: linear-gradient(90deg, rgb(28, 56, 68) 12%, rgb(30, 66, 88) 43%, rgb(31, 82, 113) 100%);
+}
 
+footer .nav-item{
+    font-size:12px;
+    padding: 20px;
+    justify-content: center;
+    width: min-content;
+}
 
+@media (max-width:749px) {
+    .postal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .postal_descripcion{
 
+        width: 100%;
+    }
+    .postal img{
 
+        width: 100%;
+    }
 
-
-
+}
