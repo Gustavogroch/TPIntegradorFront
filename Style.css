@@ -115,11 +115,16 @@ a {
 .formulario_contacto {
     display: flex;
     flex-flow: column;
-    width: 50%;
+    width: 71%;
     padding: 10px;
     justify-content: center;
     justify-items: center;
     margin: auto;
+}
+
+button.btn.btn-personal {
+    color: whitesmoke;
+    background-color: #8fd161;
 }
 
 .Links_footer {
@@ -150,5 +155,21 @@ footer .nav-item{
 
         width: 100%;
     }
+
+    .formulario_botones{
+
+        display: flex;
+        flex-flow: column;
+        width: 71%;
+        padding: 10px;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+    
+    }
+
+
+
+
 
 }
