@@ -156,17 +156,6 @@ footer .nav-item{
         width: 100%;
     }
 
-    .formulario_botones{
-
-        display: flex;
-        flex-flow: column;
-        width: 71%;
-        padding: 10px;
-        justify-content: center;
-        justify-items: center;
-        margin: auto;
-    
-    }
 
 
 
