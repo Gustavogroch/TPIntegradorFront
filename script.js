@@ -42,3 +42,8 @@ console.log(cantTicket)
 
 document.getElementById("totalPagar").innerHTML=precioFinal
 });
+
+document.getElementById("Borrar").addEventListener("click", function (){
+
+  document.getElementById("totalPagar").innerHTML="0";
+})
